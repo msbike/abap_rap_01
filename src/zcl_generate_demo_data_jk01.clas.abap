@@ -69,6 +69,9 @@ CLASS zcl_generate_demo_data_JK01 IMPLEMENTATION.
     COMMIT WORK.
 
     out->write( 'Travel and booking demo data inserted.').
+
+    " Change to show commit
+
   ENDMETHOD.
 
 ENDCLASS.
